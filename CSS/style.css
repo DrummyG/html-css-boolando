@@ -8,7 +8,6 @@ main{
     width: 65%;
     height: 1000px;
     margin: auto;
-    background-color: grey;
 }
 
 .container{
@@ -19,16 +18,26 @@ main{
     display: inline-block;
 }
 
-img{
-    height: 400px;
-    width: 250px;
-    object-fit: cover;
+.heart{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0%;
+    text-align: center;
+    line-height: 30px;
+}
+
+p{
+    display: inline-block;
 }
 
 .back{
     height: 400px;
     width: 250px;
     background-size: cover;
+    position: relative;
 }
 
 .one{
@@ -77,4 +86,8 @@ img{
 
 .six:hover{
     background-image: url(../img/6b.webp);
+}
+
+.heart:hover{
+    color: red;
 }
