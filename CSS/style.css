@@ -59,7 +59,7 @@ p{
     margin: 5px;
     padding: 3px;
     font-size: small;
-    display: none;
+    opacity: 0;
 }
 
 .discount{
@@ -135,4 +135,8 @@ p{
 
 .heart:hover{
     color: red;
+}
+
+.one p:hover{
+    opacity: 1;
 }
