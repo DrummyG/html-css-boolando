@@ -2,6 +2,7 @@
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 main{
@@ -27,6 +28,28 @@ main{
     right: 0%;
     text-align: center;
     line-height: 30px;
+}
+
+.grey{
+    margin-top: 10px;
+    color: lightgray;
+    font-size: x-small;
+}
+
+.text{
+    font-weight: bold;
+    font-size: small;
+}
+
+.price{
+    font-size: x-small;
+    color: red;
+    font-weight: bold;
+}
+
+.deleted{
+    color: gray;
+    text-decoration: line-through;
 }
 
 p{
