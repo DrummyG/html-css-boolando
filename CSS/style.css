@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+.container{
+    width: 25%;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: inline-block;
+    background-color: yellow;
+}
+
+.back{
+    height: 400px;
+    width: 250px;
+    background-size: cover;
+}
+
+.one{
+    background-image: url(../img/1.webp);
+}
