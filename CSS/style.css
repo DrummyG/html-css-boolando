@@ -137,6 +137,30 @@ p{
     color: red;
 }
 
-.one p:hover{
+.one:hover .discount{
+    opacity: 1;
+}
+
+.one:hover .eco-one{
+    opacity: 1;
+}
+
+.two:hover .discount{
+    opacity: 1;
+}
+
+.three:hover .discount{
+    opacity: 1;
+}
+
+.four:hover .discount{
+    opacity: 1;
+}
+
+.four:hover .eco-one{
+    opacity: 1;
+}
+
+.six:hover .eco-two{
     opacity: 1;
 }
