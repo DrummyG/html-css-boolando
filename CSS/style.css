@@ -19,6 +19,7 @@ main{
     display: inline-block;
 }
 
+/* cuore e testi esterni e interni */
 .heart{
     width: 30px;
     height: 30px;
@@ -78,6 +79,7 @@ p{
     background-color: #00875a;
 }
 
+/* immagini e relativo hover */
 .back{
     height: 400px;
     width: 250px;
@@ -133,6 +135,7 @@ p{
     background-image: url(../img/6b.webp);
 }
 
+/* aggiunta di effetti per cuore e immagini di prezzo e sostenibilità */
 .heart:hover{
     color: red;
 }
