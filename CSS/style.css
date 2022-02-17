@@ -5,10 +5,9 @@
 }
 
 main{
-    width: 90%;
-    height: 700px;
+    width: 65%;
+    height: 1000px;
     margin: auto;
-    margin-top: 50px;
     background-color: grey;
 }
 
@@ -18,7 +17,12 @@ main{
     margin-top: 40px;
     margin-left: 50px;
     display: inline-block;
-    background-color: yellow;
+}
+
+img{
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
 }
 
 .back{
@@ -28,5 +32,25 @@ main{
 }
 
 .one{
-    background-image: url(../img/1.webp);
+    background-image: url(../img/1b.webp);
+}
+
+.two{
+    background-image: url(../img/2b.webp);
+}
+
+.three{
+    background-image: url(../img/3b.webp);
+}
+
+.four{
+    background-image: url(../img/4b.webp);
+}
+
+.five{
+    background-image: url(../img/5b.webp);
+}
+
+.six{
+    background-image: url(../img/6b.webp);
 }
